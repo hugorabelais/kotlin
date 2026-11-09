@@ -4,9 +4,6 @@ fun calculer(x: Double, f: (Double) -> Double): Double {
     return f(x)
 }
 
-fun repeter(fois: Int action(Int) -> Unit){
-    for (i in
-}
 
 fun main(){
     println(calculer(x=3.5){x : Double -> x*x})
